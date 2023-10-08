@@ -17,7 +17,6 @@ const TournamentDetails = () => {
           )
     }
 
-
     return (
         <div>
             <div className='w-[70%] bg-teal-500 mx-auto  border border-golden'>
