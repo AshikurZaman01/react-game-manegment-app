@@ -10,6 +10,9 @@ export default {
       fontFamily: {
         blinker : " 'Blinker', sans-serif",
       },
+      colors: {
+        golden :  "#eec645",
+      },
     },
   },
   plugins: [require("daisyui")],

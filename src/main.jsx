@@ -7,12 +7,11 @@ import {
 } from "react-router-dom";
 import "./index.css";
 import Root from './Root/Root';
-import Home from './Pages/Home/Home';
-import ErrorPage from './Pages/404 pages/ErrorPage';
-import Games from './Pages/Games/Games';
-import Esports from './Pages/Esports/Esports';
-import BLog from './Pages/Blog/BLog';
-import Contact from './Pages/Contact/Contact';
+import Home from './Components/Home/Home';
+import ErrorPage from './Components/404/ErrorPage';
+import TournamentDetails from './Components/Tournaments/TournamentDetails';
+
+
 
 const router = createBrowserRouter([
   {
@@ -22,24 +21,16 @@ const router = createBrowserRouter([
     children: [
       {
         path: "/",
-        element: <Home></Home>
-      },
-      {
-        path: "/games",
-        element: <Games></Games>
-      },
-      {
-        path: "/esport",
-        element: <Esports></Esports>
-      },
-      {
-        path: "/blog",
-        element: <BLog></BLog>
-      },
-      {
-        path: "/contact",
-        element: <Contact></Contact>
-      },
+        element: <Home></Home>,
+        loader : () => fetch('/tournament.json')
+      },{
+        path: "/tournaments/:id",
+        element: <TournamentDetails></TournamentDetails>,
+        loader : () => fetch('/tournament.json')
+      }
+     
+      
+     
     ]
   },
 ]);

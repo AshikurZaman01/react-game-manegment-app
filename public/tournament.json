@@ -1,0 +1,83 @@
+[
+    {
+      "id": 1,
+      "title": "FIFA 2023 Championship",
+      "image": "https://img.freepik.com/free-vector/gradient-world-footbal-championship-illustration_23-2149715267.jpg?size=626&ext=jpg&ga=GA1.2.1683526684.1696775679&semt=ais",
+      "entry_fee": 200,
+      "details": "Join the FIFA 2023 Championship and showcase your soccer skills. Compete against the best players in the world for a chance to win amazing prizes. This tournament is open to all skill levels.",
+      "description": "The FIFA 2023 Championship is the ultimate soccer showdown for players of all levels. Whether you're a seasoned pro or just starting, this tournament offers an exciting opportunity to compete on a global stage. Show off your dribbling, passing, and goal-scoring abilities as you go head-to-head with some of the most skilled players in the world.\n\nOur tournament features a diverse range of teams and players, each with their unique strategies and tactics. You'll experience intense matches that will keep you on the edge of your seat. The tournament's entry fee is $20, providing you with a chance to win incredible prizes and recognition as a top FIFA player. Don't miss out on this chance to become a soccer legend!"
+    },
+    {
+      "id": 2,
+      "title": "Call of Duty Warzone Tournament",
+      "image": "https://images.unsplash.com/photo-1593305841991-05c297ba4575?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Q2FsbCUyMG9mJTIwRHV0eSUyMFdhcnpvbmV8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+      "entry_fee": 150,
+      "details": "Engage in epic battles in the Call of Duty Warzone Tournament. Form squads and strategize to claim victory and earn cash rewards. This event is perfect for all FPS enthusiasts.",
+      "description": "Prepare for adrenaline-pumping action in the Call of Duty Warzone Tournament! Whether you're a sharpshooter or a tactical genius, this event is tailor-made for FPS enthusiasts. Squad up with your friends and devise strategies to dominate the battlefield.\n\nIn this high-stakes competition, your skills will be put to the test as you battle against formidable opponents. The entry fee is just $15, a small price to pay for a chance to win substantial cash rewards. With realistic graphics and immersive gameplay, you'll feel like you're in the heart of the action.\n\nJoin us for a gaming experience like no other and show the world your Call of Duty prowess. Victory awaits those who dare to compete!"
+    },
+    {
+      "id": 3,
+      "title": "League of Legends World Championship",
+      "image": "https://img.freepik.com/free-vector/realistic-fantasy-illustration-dwarf-illustration_52683-95388.jpg?size=626&ext=jpg&ga=GA1.1.1683526684.1696775679&semt=ais",
+      "entry_fee": 250,
+      "details": "Experience the thrill of League of Legends World Championship. Battle it out in the Summoner's Rift for a chance to become a legend. Top teams from around the world will compete for the ultimate prize.",
+      "description": "The League of Legends World Championship is the pinnacle of esports competition. Step onto the Summoner's Rift and become a legend in the world of League of Legends. This prestigious tournament brings together the best teams from around the globe to battle it out for the ultimate prize.\n\nWith an entry fee of $25, you'll gain access to a world of excitement and intense competition. Whether you're a solo player or part of a team, the League of Legends World Championship offers a platform for you to showcase your skills.\n\nAs you climb the ranks and face off against top-tier opponents, you'll experience the rush of victory and the sting of defeat. Will you be the one to hoist the championship trophy and earn the title of world champion? Join us on this incredible journey!"
+    },
+    {
+      "id": 4,
+      "title": "Overwatch Mayhem Showdown",
+      "image": "https://images.unsplash.com/photo-1579381326252-d208dd8ce82b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8T3ZlcndhdGNofGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+      "entry_fee": 150,
+      "details": "Join the Overwatch Mayhem Showdown and prove your hero skills. Assemble your team and embark on a journey to become champions. Epic battles and cash prizes await!",
+      "description": "Get ready for mayhem in the Overwatch Mayhem Showdown! Assemble your dream team of heroes and dive into thrilling battles that will test your skills, teamwork, and strategy. With an entry fee of just $10, this tournament is accessible to all Overwatch fans.\n\nOur Mayhem Showdown offers a chance to win cash prizes and recognition as the top Overwatch team. Whether you're a tank, support, or DPS player, there's a place for you in the arena.\n\nExperience the adrenaline rush of intense shootouts and coordinate with your team to secure victory. Will your squad emerge as the champions, or will you be overwhelmed by the competition? Join us and find out!"
+    },
+    {
+      "id": 5,
+      "title": "Rocket League Rumble",
+      "image": "https://img.freepik.com/free-vector/rocket-asteroid-scene_1308-31568.jpg?size=626&ext=jpg&ga=GA1.1.1683526684.1696775679&semt=ais",
+      "entry_fee": 120,
+      "details": "Get behind the wheel in the Rocket League Rumble tournament. Score goals and make incredible saves in this high-octane esports event. Cash rewards for the best teams.",
+      "description": "Buckle up and get ready for Rocket League Rumble! Take control of rocket-powered cars as you zoom across the arena, scoring goals and making jaw-dropping saves. This high-octane esports event is open to players of all skill levels, with an entry fee of $12.\n\nCompete against other rocket car enthusiasts and showcase your aerial acrobatics and precision ball control. The Rocket League Rumble offers cash rewards for the best-performing teams, making it a thrilling and rewarding experience.\n\nTeam up with friends or go solo – the choice is yours. Whether you're a rookie or a veteran, this tournament promises heart-pounding action and unforgettable moments. So rev up your engines and join the Rocket League Rumble today!"
+    },
+    {
+      "id": 6,
+      "title": "Fortnite Battle Royale Clash",
+      "image": "https://images.unsplash.com/photo-1589241062272-c0a000072dfa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Rm9ydG5pdGV8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+      "entry_fee": 100,
+      "details": "Prepare for the Fortnite Battle Royale Clash and build, fight, and survive your way to victory. Battle against other players in this intense competition and win V-Bucks.",
+      "description": "Drop into the Fortnite Battle Royale Clash and prepare for an intense showdown on the island. Gather resources, build structures, and eliminate opponents in a bid to be the last one standing. With an entry fee of just $10, this competition is open to all Fortnite enthusiasts.\n\nWhether you're a builder, a sharpshooter, or a tactical genius, there's a playstyle for everyone in Fortnite. The Clash offers V-Bucks and bragging rights to the victors, making it an event you won't want to miss.\n\nSurvive the storm, outsmart your foes, and secure the Victory Royale. Will you be the one to dance on the battlefield as the ultimate champion? Join the Fortnite Battle Royale Clash and find out!"
+    },
+    {
+      "id": 7,
+      "title": "Dota 2 International Championship",
+      "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg?t=1682639497",
+      "entry_fee": 300,
+      "details": "Participate in the Dota 2 International Championship, the biggest Dota 2 event of the year. Compete for a multi-million dollar prize pool and the title of world champion.",
+      "description": "The Dota 2 International Championship is the grandest stage for MOBA enthusiasts. With a jaw-dropping multi-million dollar prize pool and the coveted title of world champion at stake, this event is a must-attend for Dota 2 players.\n\nForm your team, draft your heroes, and engage in strategic battles that will test your skills and teamwork. The entry fee is $30, but the rewards for victory are monumental.\n\nAs you progress through the tournament, you'll face fierce competition from around the world. Only the most skilled and coordinated teams will have a shot at the championship title. Will your team be the one to raise the Aegis of Champions and etch your names in Dota 2 history? Join us on this epic journey!"
+    },
+    {
+      "id": 8,
+      "title": "Counter-Strike: Global Offensive Masters",
+      "image": "https://images.unsplash.com/photo-1599825804983-3bca9404d92c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Q291bnRlciUyMFN0cmlrZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "entry_fee": 200,
+      "details": "Join the Counter-Strike: Global Offensive Masters tournament and engage in intense tactical battles. Prove your shooting skills and teamwork to win big cash prizes.",
+      "description": "Lock and load for the Counter-Strike: Global Offensive Masters tournament! In this high-octane competition, your shooting skills, tactical prowess, and teamwork will be put to the test. With an entry fee of $20, you'll have a chance to win substantial cash prizes and recognition as a top CS:GO team.\n\nCoordinate with your teammates, devise strategies, and outsmart your opponents on the virtual battlefield. The Masters tournament promises intense action and thrilling moments that will keep you on the edge of your seat.\n\nDo you have what it takes to secure victory and establish your team as the best in the world of Counter-Strike: Global Offensive? Join us and prove your mettle!"
+    },
+    {
+      "id": 9,
+      "title": "Hearthstone Grandmasters Showdown",
+      "image": "https://images.unsplash.com/photo-1628867578008-8af02ac3c788?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8SGVhcnRoc3RvbmUlMjBHcmFuZG1hc3RlcnN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+      "entry_fee": 150,
+      "details": "Compete in the Hearthstone Grandmasters Showdown and showcase your card-playing prowess. Build powerful decks and outsmart your opponents for a chance to be a Hearthstone legend.",
+      "description": "Prepare your decks and sharpen your strategy for the Hearthstone Grandmasters Showdown! This card game tournament is a showcase of wit, strategy, and cunning. With an entry fee of $15, you'll have the opportunity to prove your card-playing prowess and compete for the title of Hearthstone legend.\n\nCraft powerful decks, make strategic plays, and outmaneuver your opponents in this digital card game extravaganza. The Grandmasters Showdown offers cash rewards and the chance to earn a reputation as one of the top Hearthstone players.\n\nWill your deck be the one to dominate the competition, or will you be outwitted by your rivals? Join us and deal your way to victory!"
+    },
+    {
+      "id": 10,
+      "title": "Rainbow Six Siege Invitational",
+      "image": "https://news.xbox.com/en-us/wp-content/uploads/sites/2/2021/01/R6SIEGE_UCS20279_KEYART_Week1_S6_RGB.jpg?w=792",
+      "entry_fee": 180,
+      "details": "Enter the world of tactical shooters with the Rainbow Six Siege Invitational. Team up and strategize to eliminate the opposition and claim the championship title and cash rewards.",
+      "description": "Get ready for tactical warfare in the Rainbow Six Siege Invitational! Assemble your elite team of operators and execute precision strikes in intense, close-quarters battles. With an entry fee of $18, this tournament welcomes all tactical shooter aficionados.\n\nCoordinate with your teammates, plan your strategies, and execute them flawlessly to secure victory. The Invitational offers not only the title of champion but also lucrative cash rewards for those who emerge victorious.\n\nWill your team be the one to breach, clear, and conquer the competition, or will you succumb to the opposition's tactics? Join us in the world of Rainbow Six Siege and prove your mettle!"
+    }
+  ]
+  
