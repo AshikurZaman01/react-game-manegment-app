@@ -13,6 +13,7 @@ import TournamentDetails from './Components/Tournaments/TournamentDetails';
 import News from './Components/News/News';
 import NewsDetails from './Components/News/NewsDetails';
 import Blog from './Components/Blog/Blog';
+import Games from './Components/Games/Games';
 
 
 
@@ -45,6 +46,14 @@ const router = createBrowserRouter([
         path: "/news/:id",
         element: <NewsDetails></NewsDetails>,
         loader: ()=> fetch('/news.json')
+      },
+      {
+        path: "/news",
+        element: <Blog></Blog>,
+      },
+      {
+        path: "/games",
+        element: <Games></Games>,
       },
      
       

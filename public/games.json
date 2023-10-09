@@ -1,0 +1,73 @@
+[
+    {
+      "id": 1,
+      "name": "Futuristic Odyssey",
+      "image": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/f03f3ac4-ad08-471b-b6b5-f7a77aafe26b/dfu8tg0-44a5419d-2d49-4916-bbdd-ce911ae8e4be.png/v1/fill/w_1194,h_669,q_70,strp/neon_cosmos__a_retro_futuristic_odyssey_by_misconceptionaiart_dfu8tg0-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2YwM2YzYWM0LWFkMDgtNDcxYi1iNmI1LWY3YTc3YWFmZTI2YlwvZGZ1OHRnMC00NGE1NDE5ZC0yZDQ5LTQ5MTYtYmJkZC1jZTkxMWFlOGU0YmUucG5nIiwiaGVpZ2h0IjoiPD03MTgiLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS53YXRlcm1hcmsiXSwid21rIjp7InBhdGgiOiJcL3dtXC9mMDNmM2FjNC1hZDA4LTQ3MWItYjZiNS1mN2E3N2FhZmUyNmJcL21pc2NvbmNlcHRpb25haWFydC00LnBuZyIsIm9wYWNpdHkiOjk1LCJwcm9wb3J0aW9ucyI6MC40NSwiZ3Jhdml0eSI6ImNlbnRlciJ9fQ.MUtJEpbbH-4oGpqq6koKgu6GKlzU7OzNd4GjIz8cE9U",
+      "description": "Embark on a thrilling journey through a futuristic world filled with high-tech gadgets and breathtaking landscapes.",
+      "price": 490
+    },
+    {
+      "id": 2,
+      "name": "Epic Quest IX",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjJ4kHYT_DALwbI4BZ3mghGtPIA-0p6HN3cCmpW1Lzx1Kvg9WFU41ERXCoNV90N3dir9E&usqp=CAU",
+      "description": "Join a band of heroes on an epic quest to save the kingdom from an ancient evil in this action-packed RPG.",
+      "price": 230
+    },
+    {
+      "id": 3,
+      "name": "Galactic Conquerors",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvS6aYR1_JCYYUdqyacUTB0114URrh4rp6tZ9jryR3tX88Tps3BNbbGxLofF2khMmtnKs&usqp=CAU",
+      "description": "Command a fleet of spaceships and conquer the galaxy in this strategy game set in a distant future.",
+      "price": 423
+    },
+    {
+      "id": 4,
+      "name": "Mystic Legends",
+      "image": "https://cdn-o7.outfit7.com/wp-content/uploads/2021/01/image-2-1.png",
+      "description": "Unleash the power of magic and face mythical creatures in a fantasy world filled with mysteries.",
+      "price": 987
+    },
+    {
+      "id": 5,
+      "name": "Apocalypse Survivors",
+      "image": "https://i.pinimg.com/736x/6b/fe/81/6bfe81ac0b0ae4155b110f44470b73d8.jpg",
+      "description": "Survive in a post-apocalyptic wasteland, scavenge for resources, and build a community in this survival game.",
+      "price": 434
+    },
+    {
+      "id": 6,
+      "name": "Ninja Assassin: Shadows of Darkness",
+      "image": "https://play-lh.googleusercontent.com/6RLDNXGFbLb2WT5YjWZt2lArHX_tUjOGL5fHJjjwU4fG4Gm4_u8fBmwzj4TPkkVmKg=w526-h296-rw",
+      "description": "Become a stealthy ninja and take on dangerous missions in the shadows in this action-packed game.",
+      "price": 490
+    },
+    {
+      "id": 7,
+      "name": "Racing Revolution",
+      "image": "https://static.wixstatic.com/media/d28ffa_2928c165badd451681ac2a0d299648ed~mv2.jpg/v1/fill/w_640,h_480,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/d28ffa_2928c165badd451681ac2a0d299648ed~mv2.jpg",
+      "description": "Experience high-speed racing action on tracks around the world in this adrenaline-pumping racing game.",
+      "price": 412
+    },
+    {
+      "id": 8,
+      "name": "Jurassic World: Dinosaur Park",
+      "image": "https://www.usatoday.com/gcdn/-mm-/0b75d3a64718cd7da11c781f4069cd89c611b79d/c=6-0-3594-2027/local/-/media/2015/06/09/USATODAY/USATODAY/635694894257046437-XXX-JURASSICWORLD-01-MOV-DCB-73643264.JPG?width=660&height=373&fit=crop&format=pjpg&auto=webp",
+      "description": "Build your own dinosaur theme park and manage prehistoric creatures in this simulation game.",
+      "price": 345
+    },
+    {
+      "id": 9,
+      "name": "Cyberpunk Infiltrator",
+      "image": "https://videogames.si.com/.image/ar_16:9%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cg_faces:center%2Cq_auto:good%2Cw_768/MTk5MDI4Mjg4OTY0ODYzOTU2/cyberpunk-2077-phantom-liberty-glhf-1.jpg",
+      "description": "Hack into the digital world and uncover corporate conspiracies in a cyberpunk dystopia.",
+      "price": 532
+    },
+    {
+      "id": 10,
+      "name": "Zombie Survival: Last Stand",
+      "image": "https://cdn.akamai.steamstatic.com/steam/apps/1266840/capsule_616x353.jpg?t=1695840454",
+      "description": "Fight hordes of zombies and defend your stronghold in a post-zombie-apocalypse world.",
+      "price": 642
+    }
+  ]
+  
