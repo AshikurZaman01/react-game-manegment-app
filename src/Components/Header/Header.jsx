@@ -1,6 +1,7 @@
-import React, { useState } from 'react';
+import React, { useContext, useState } from 'react';
 import image from '../../assets/image/logo-2.png';
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
+import { AuthContext } from '../../Provider/AuthProvider';
 
 const Header = () => {
     const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -8,7 +9,14 @@ const Header = () => {
     const toggleMobileMenu = () => {
       setMobileMenuOpen(!isMobileMenuOpen);
     };
-    const user = true;
+
+    const {user , logOut} =  useContext(AuthContext);
+    
+    const handleLogout = () => {  
+      logOut();
+      window.location.href = '/login';
+    }
+
   return (
     <div>
       <nav className="bg-black border-gray-200 dark:bg-gray-900">
@@ -19,26 +27,29 @@ const Header = () => {
             <div className="flex md:order-2">
            
            {
-             user ?  <button className='text-xl font-semibold bg-[#eec645] text-white px-6 rounded-full'>Login</button> : 
+             user ?  
               <div>
               <div className="flex items-center space-x-4">
                 <div className="w-16 h-16 rounded-full overflow-hidden">
                     <img
-                    src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGVyc29ufGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+                    src={user.photoURL}
                     alt="Profile Picture"
                     className="w-full h-full object-cover"
                     />
                 </div>
  
                 <div>
-                    <p className="text-lg font-semibold">John Doe</p>
+                    <p className="text-lg font-semibold text-white">{user.displayName}</p>
                 </div>
  
-                <button className="bg-red-500 text-white px-4 py-2 rounded-lg hover:bg-red-600 transition duration-300">
+                <button onClick={handleLogout} className="bg-red-500 text-white px-4 py-2 rounded-lg hover:bg-red-600 transition duration-300">
                     Logout
                 </button>
-     </div>
               </div>
+              </div> 
+              : 
+              <Link to={'/login'}><button className='text-xl font-semibold bg-[#eec645] text-white px-6 rounded-full'>Login</button></Link>
+              
            }
  
              <button

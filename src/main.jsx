@@ -15,6 +15,11 @@ import NewsDetails from './Components/News/NewsDetails';
 import Blog from './Components/Blog/Blog';
 import Games from './Components/Games/Games';
 import COntact from './Components/Contact/COntact';
+import Login from './Components/Login/Login';
+import Register from './Components/Register/Register';
+import SignInWith from './Components/SignInWith/SignInWith';
+import AuthProvider from './Provider/AuthProvider';
+import PrivateRoute from './PrivateRoute/PrivateRoute';
 
 
 
@@ -35,7 +40,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/tournaments/:id",
-        element: <TournamentDetails></TournamentDetails>,
+        element: <PrivateRoute><TournamentDetails></TournamentDetails></PrivateRoute>,
         loader : () => fetch('/tournament.json')
       },
       {
@@ -45,7 +50,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/news/:id",
-        element: <NewsDetails></NewsDetails>,
+        element: <PrivateRoute><NewsDetails></NewsDetails></PrivateRoute>,
         loader: ()=> fetch('/news.json')
       },
       {
@@ -54,13 +59,23 @@ const router = createBrowserRouter([
       },
       {
         path: "/games",
-        element: <Games></Games>,
+        element: <PrivateRoute><Games></Games></PrivateRoute>,
       },
       {
         path: "/contact",
         element: <COntact></COntact>,
       },
-      
+      {
+        path: "/login",
+        element: <Login></Login>,
+      }, {
+        path: "/register",
+        element: <Register></Register>
+      },
+      {
+        path: "/signinwith",
+        element: <SignInWith></SignInWith>
+      },
       
      
     ]
@@ -69,6 +84,8 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
+    <AuthProvider>
      <RouterProvider router={router} />
+    </AuthProvider>
   </React.StrictMode>,
 )
