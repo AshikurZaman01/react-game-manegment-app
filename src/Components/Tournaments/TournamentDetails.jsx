@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import { useLoaderData, useParams } from 'react-router-dom';
-// ES6 Modules or TypeScript
 import Swal from 'sweetalert2'
 
 const TournamentDetails = () => {

@@ -3,6 +3,7 @@ import Banner from '../Banner/Banner';
 import { useLoaderData } from 'react-router-dom';
 import Tournaments from '../Tournaments/Tournaments';
 import LatestGame from '../LatestGame/LatestGame';
+import News from '../News/News';
 
 const Home = () => {
 
@@ -23,6 +24,9 @@ const Home = () => {
                 </div>
                 <div>
                     <LatestGame></LatestGame>
+                </div>
+                <div>
+                    <News></News>
                 </div>
             </div>
         </div>
