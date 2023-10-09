@@ -21,9 +21,9 @@ const Header = () => {
     <div>
       <nav className="bg-black border-gray-200 dark:bg-gray-900">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-            <a href="/" className="flex items-center">
+            <Link to="/" className="flex items-center">
                 <img src={image} className="h-8 mr-3" alt="Logo" />
-            </a>
+            </Link>
             <div className="flex md:order-2">
            
            {

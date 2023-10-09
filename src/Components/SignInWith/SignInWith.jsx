@@ -7,7 +7,7 @@ import Swal from 'sweetalert2'
 
 const SignInWith = () => {
 
-   const {googleLogin} = useContext(AuthContext)
+   const {googleLogin , githubLogin} = useContext(AuthContext)
 
 
     const handleGoogleLogin = ()=>
@@ -15,7 +15,6 @@ const SignInWith = () => {
         googleLogin()
         .then( res => {
             console.log(res);
-            window.location.href = '/';
             Swal.fire({
                 position: 'top-end',
                 icon: 'success',
@@ -23,6 +22,24 @@ const SignInWith = () => {
                 showConfirmButton: false,
                 timer: 1500
               })
+              window.location.href = '/';
+        }) 
+        .catch( err => console.log(err))  
+    }
+
+    const handleGithubLogin = ()=>
+    {
+        githubLogin()
+        .then( res => {
+            console.log(res);
+            Swal.fire({
+                position: 'top-end',
+                icon: 'success',
+                title: 'Login With Google Successful',
+                showConfirmButton: false,
+                timer: 1500
+              })
+              window.location.href = '/';
         }) 
         .catch( err => console.log(err))  
     }
@@ -35,7 +52,7 @@ const SignInWith = () => {
             <div className='flex justify-center my-2 '>
                 <div>
                  <button onClick={handleGoogleLogin} className='rounded-full text-2xl mx-2'><FcGoogle></FcGoogle></button>
-                 <button className='rounded-full text-2xl'><AiFillGithub></AiFillGithub></button>
+                 <button onClick={handleGithubLogin} className='rounded-full text-2xl'><AiFillGithub></AiFillGithub></button>
                 </div>
             </div>
         </div>
