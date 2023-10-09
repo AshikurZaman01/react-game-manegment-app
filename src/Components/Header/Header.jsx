@@ -92,16 +92,7 @@ const Header = () => {
                    Games
                  </NavLink>
                </li>
-               <li>
-                 <NavLink
-                   to="/esport"
-                   activeClassName="underline"
-                   className="hover:underline"
-                   aria-current="page"
-                 >
-                   eSport
-                 </NavLink>
-               </li>
+              
                <li>
                  <NavLink
                    to="/blog"

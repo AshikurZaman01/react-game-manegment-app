@@ -16,7 +16,7 @@ const Games = () => {
             <div>
                 <h1 className=' text-center text-5xl font-bold my-10'><span className='text-golden'>Trending</span> Games</h1>
             </div>
-            <div  className='grid grid-cols-1 md:grid-cols-3 mx-auto'>
+            <div  className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mx-auto'>
         {
           games?.map(game => <GamesCcard key={game.id} game={game}></GamesCcard>)
         

@@ -14,6 +14,7 @@ import News from './Components/News/News';
 import NewsDetails from './Components/News/NewsDetails';
 import Blog from './Components/Blog/Blog';
 import Games from './Components/Games/Games';
+import COntact from './Components/Contact/COntact';
 
 
 
@@ -55,7 +56,11 @@ const router = createBrowserRouter([
         path: "/games",
         element: <Games></Games>,
       },
-     
+      {
+        path: "/contact",
+        element: <COntact></COntact>,
+      },
+      
       
      
     ]
