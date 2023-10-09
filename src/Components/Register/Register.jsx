@@ -21,6 +21,8 @@ const Register = () => {
       showError('Password must be at least 6 characters long');
     } else if (!/[A-Z]/.test(password) || !/[0-9]/.test(password)) {
       showError('Password must contain at least one letter and one number');
+    } else if (!/[@#$%^&+=]/.test(password)) {
+      showError('Password must contain at least one special character (@#$%^&+=)');
     } else if (!terms) {
       showError('You must accept the terms and conditions');
     } else if (email === '' || password === '' || name === '') {
@@ -31,7 +33,6 @@ const Register = () => {
           showSuccess('You have successfully registered');
           window.location.href = '/';
         })
-        
         .catch((error) => {
           showError(error.message);
         });
