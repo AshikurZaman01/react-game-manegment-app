@@ -1,8 +1,9 @@
-# React + Vite
+## My Website Name is : Clouxgame
+* This is a game event website.
+* This WEbsite User Can Complate registration for participate game evant.
+* User can buy latest game.
+* can read new game arrivals, lates news in thw blog section.
+* For this user must be registered my website or logged in.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+ 
+ ###  Live Link : https://event-management-8ih9.vercel.app
